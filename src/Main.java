@@ -18,16 +18,18 @@ public class Main {
 
         boolean continuar = true;
         while (continuar) {
-            System.out.println("Seja bem vindo/a ao conversor de moeda");
-            System.out.println("1) Dolar =>> Peso argentino");
-            System.out.println("2) Peso argentino =>> Dolar");
-            System.out.println("3) Dolar =>> Real brasileiro");
-            System.out.println("4) Real brasileiro =>> Dolar");
-            System.out.println("5) Dolar =>> Peso colombiano");
-            System.out.println("6) Peso colombiano =>> Dolar");
-            System.out.println("7) Sair");
-            System.out.println("\nEscolha uma opção válida:");
-            System.out.println("***********************************************");
+            System.out.println("""
+            Seja bem-vindo/a ao conversor de moedas);
+            1) Dólar =>> Peso argentino);
+            2) Peso argentino =>> Dólar);
+            3) Dólar =>> Real brasileiro);
+            4) Real brasileiro =>> Dólar);
+            5) Dólar =>> Peso colombiano);
+            6) Peso colombiano =>> Dólar);
+            7) Sair);
+            \nEscolha uma opção válida:);
+            ***********************************************
+            """);
 
             int opcao = scanner.nextInt();
 
